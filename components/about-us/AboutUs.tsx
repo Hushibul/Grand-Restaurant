@@ -4,9 +4,9 @@ import AboutUsTwo from '../../assets/images/about-img-2.jpg';
 
 const AboutUs = () => {
   return (
-    <section className='container my-20 flex'>
+    <section className='container my-20 flex gap-x-12'>
       <div className='w-1/2'>
-        <div className='relative'>
+        <div className='relative float-right'>
           <Image
             className='absolute top-20 -left-44'
             width={370}
@@ -33,7 +33,9 @@ const AboutUs = () => {
           suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
         </p>
 
-        <h3 className='text-gray-700 border-l-2 border-yellow-500'>About Us</h3>
+        <h3 className='text-gray-700 pl-4 border-l-2 border-yellow-400 text-2xl mt-10'>
+          About Us
+        </h3>
       </div>
     </section>
   );
